@@ -25,6 +25,8 @@ Program objective :
 
 ### D. Program Description
 
+1. 'transaction.py' module contains Transaction class with methods
+
 ### E. Guide to Replicate
 
 ### F. Test Cases and Result

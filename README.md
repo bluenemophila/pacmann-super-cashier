@@ -20,7 +20,7 @@ Learning objective :
 * Apply PEP8 principles to write clean Python program
 
 Program objective :
-* Simulate cashier syste that enables item input, order summary, and total calculation
+* Simulate cashier system that enables item input, order summary, and total calculation
 * Provide basic features such as updating and deleting items, applying coupon, and calculating discount
 
 ### D. Program Description

@@ -36,7 +36,9 @@ Program objective :
 ### G. Test Cases and Result
 1. Adding item to cart
 ![Add item to cart 1](<img/1. Add item 1.png>)
+
 ![Add item to cart 2](<img/1. Add item 2.png>)
+
 ![Add item invalid](<img/1. Add item invalid.png>)
 
 2. Removing item from cart

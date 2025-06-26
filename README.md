@@ -35,7 +35,7 @@ Program objective :
 
 ### G. Test Cases and Result
 1. Adding item to cart
-![Add item to cart 1](<img/1. Add item 1.png>)
+![Add item to cart 1](<img src="img/1. Add item 1.png" width="1000"/>)
 
 ![Add item to cart 2](<img/1. Add item 2.png>)
 

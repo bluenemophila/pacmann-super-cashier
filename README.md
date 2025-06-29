@@ -26,22 +26,39 @@ Program objective :
 ### D. Flowchart
 
 ### E. Program Description
-1. 'transaction.py' module contains Transaction class with methods to add item, update item (name, quantity, and price), remove / delete all item, and calculate the total price with discount and coupon functionality
-2. 'cashier_app.py' module displays simple cashier app menu
+1. 'transaction.py' module contains Transaction class to handle the transaction process, with methods to add item to shopping cart, update item (name, quantity, and price), remove item (specific or all item), check cart contents, apply discount coupon, and calculate the total price of items in the cart.
+2. 'cashier_app.py' module displays simple cashier app menu that allows user add their transaction by input action
 
 ### F. Guide to Replicate
-1. Download all files to local directory
+1. Download zip or clone this repository to local
 2. Run cashier_app.py on terminal
 
 ### G. Test Cases and Result
 1. Adding item to cart
-<img src="img/1. Add item 1.png" width="1000"/>
+<img src="img/1. Add item 1.png" width="100"/>
+<img src="img/1. Add item 2.png" width="100"/>
+<img src="img/1. Add item invalid.png" width="100"/>
 
-![Add item to cart 2](<img/1. Add item 2.png>)
+2. Updating cart item name
+<img src="img/2. Update item name.png" width="100"/>
 
-![Add item invalid](<img/1. Add item invalid.png>)
+3. Updating cart item quantity
+<img src="img/3. Update item quantity.png" width="100"/>
 
-2. Removing item from cart
-![alt text](<img/2. Remove item.png>)
+4. Updating cart item price
+<img src="img/4. Update item price.png" width="100"/>
+
+5. Remove item from cart
+<img src="img/5. Remove item.png" width="100"/>
+
+6. Reset cart item
+<img src="img/6. Reset item.png" width="100"/>
+
+7. Check shopping cart
+<img src="img/7. Check shopping cart.png" width="100"/>
+
+8. Checkout
+<img src="img/8. Checkout.png" width="100"/>
 
 ### H. Conclusion
+This project demonstrated how Python and OOP can help solving real world task. To further improve the application and simulate better app that fits user's need, there are several improvement I would like to do if I had the time and resources. Firstly, I would like to be able to save the transactions to database (e.g. SQLite/PostgreSQL) and be able to get report of daily transaction as a summary. I would also like to build a web framework using Django/Flask to improve the interface.

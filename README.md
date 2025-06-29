@@ -27,6 +27,8 @@ Program objective :
 1. 'transaction.py' module contains Transaction class to handle the transaction process, with methods to add item to shopping cart, update item (name, quantity, and price), remove item (specific or all item), check cart contents, apply discount coupon, and calculate the total price of items in the cart.
 2. 'cashier_app.py' module displays simple cashier app menu that allows user add their transaction by input action.
 
+<img src="img/Flowchart.png" width="300"/>
+
 ### E. Guide to Replicate
 1. Download zip or clone this repository to local
 2. Run cashier_app.py on terminal

@@ -1,7 +1,12 @@
+# Import necessary libraries
 from tabulate import tabulate
 from transaction import Transaction
 
 transct_123 = Transaction()
+
+'''
+Simple CLI-based app to simulate user transaction
+'''
 
 while True:
     header = ["WELCOME TO ANDIMART GROCERIES CASHIER APP"]
@@ -39,6 +44,8 @@ while True:
                 "item_qty" : item_qty,
                 "item_price" : item_price
             })
+
+            transct_123.check_order()
 
             add_more_item = input("Do you want to add more item? (y/n): ")
             if add_more_item.lower() == 'y':
